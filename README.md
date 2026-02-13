@@ -25,3 +25,5 @@ if st.button("🎤 Start Answer"):
     show_dashboard(answer, result["score"], emotion, voice_level)
 
     st.session_state.question = next_question()
+
+streamlit run app.py
